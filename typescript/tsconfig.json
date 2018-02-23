@@ -1,11 +1,13 @@
 {
-    "compilerOptions": {
-        "module": "commonjs",
-        "noImplicitAny": true,
-        "removeComments": true,
-        "preserveConstEnums": true
-    },
-    "files": [
-        "main.ts"
-    ]
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "target": "esnext"
+  },
+  "files": [
+    "main.ts",
+    "main.test.ts"
+  ]
 }
