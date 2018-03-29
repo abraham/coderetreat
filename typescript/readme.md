@@ -16,3 +16,7 @@ Tests
 ----
 
     $ npm test
+
+Or
+
+    $ npm run watch

@@ -4,8 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "tsc && node ./main.js",
     "test": "jest",
-    "start": "tsc && node ./main.js"
+    "watch": "jest --watch"
   },
   "author": "",
   "license": "MIT",
