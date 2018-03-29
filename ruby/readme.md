@@ -16,3 +16,7 @@ Tests
 ----
 
     $ rspec
+
+Or
+
+    $ bundle exec guard
