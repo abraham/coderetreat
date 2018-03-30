@@ -20,3 +20,8 @@ Tests
 Or
 
     $ npm run watch
+
+REPL
+----
+
+    $ npx ts-node
