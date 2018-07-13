@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "tsc && node ./main.js",
+    "start": "ts-node ./main.js",
     "test": "jest",
     "watch": "jest --watch"
   },
