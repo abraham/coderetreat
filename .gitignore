@@ -1,3 +1,2 @@
-node_modules
-main.js
-main.test.js
+typescript/node_modules
+typescript/*.js
