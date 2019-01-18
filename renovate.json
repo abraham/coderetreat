@@ -2,7 +2,5 @@
   "extends": [
     "config:base"
   ],
-  "devDependencies": {
-    "automerge": true
-  }
+  "automerge": true
 }
