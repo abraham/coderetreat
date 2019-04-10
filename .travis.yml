@@ -1,8 +1,8 @@
 language: ruby
 rvm:
-  - 2.5
+  - 2.6
 env:
-  - TRAVIS_NODE_VERSION="9"
+  - TRAVIS_NODE_VERSION="10"
 install:
   - cd ruby
   - gem install bundler
