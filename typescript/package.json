@@ -28,7 +28,7 @@
     "@types/jest": "24.0.15",
     "@types/lodash": "4.14.136",
     "jest": "24.8.0",
-    "lodash": "4.17.13",
+    "lodash": "4.17.14",
     "ts-jest": "24.0.2",
     "ts-node": "8.3.0",
     "typescript": "3.5.3"
