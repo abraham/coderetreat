@@ -5,6 +5,7 @@ Install
 ----
 
     $ git clone URL
+    $ cd typescript
     $ npm install
 
 Usage
