@@ -5,17 +5,18 @@ Install
 ----
 
     $ git clone URL
+    $ cd ruby
     $ bundle install
 
 Usage
 ----
 
-    $ ruby lib/main.rb
+    $ bundle exec ruby lib/main.rb
 
 Tests
 ----
 
-    $ rspec
+    $ bundle exec rspec
 
 Or
 
