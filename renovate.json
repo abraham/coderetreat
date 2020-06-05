@@ -1,9 +1,0 @@
-{
-  "automerge": true,
-  "bundler": {
-    "enabled": true
-  },
-  "extends": [
-    "config:base"
-  ]
-}
