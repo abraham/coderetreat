@@ -27,7 +27,7 @@
   "dependencies": {
     "@types/jest": "26.0.14",
     "@types/lodash": "4.14.162",
-    "jest": "26.5.2",
+    "jest": "26.5.3",
     "lodash": "4.17.20",
     "ts-jest": "26.4.1",
     "ts-node": "9.0.0",
