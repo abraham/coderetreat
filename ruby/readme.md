@@ -1,20 +1,16 @@
-Coderetreat Ruby starter
-====
+# Coderetreat Ruby starter
 
-Install
-----
+## Install
 
     $ git clone URL
     $ cd ruby
     $ bundle install
 
-Usage
-----
+## Usage
 
     $ bundle exec ruby lib/main.rb
 
-Tests
-----
+## Tests
 
     $ bundle exec rspec
 

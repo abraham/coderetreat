@@ -1,0 +1,23 @@
+{
+  "name": "coderetreat",
+  "version": "1.0.0",
+  "description": "Coderetreat starter kit with Ruby and TypeScript",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abraham/coderetreat.git"
+  },
+  "author": "Abraham Williams <hey@abrah.am>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abraham/coderetreat/issues"
+  },
+  "homepage": "https://github.com/abraham/coderetreat#readme"
+}
