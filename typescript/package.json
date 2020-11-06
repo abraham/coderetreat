@@ -2,14 +2,23 @@
   "name": "coderetreat",
   "version": "1.0.0",
   "description": "Coderetreat starter kit with TypeScript",
+  "license": "MIT",
+  "author": "Abraham Williams <hey@abrah.am>",
   "main": "main.js",
   "scripts": {
     "start": "ts-node ./main.ts",
     "test": "jest",
     "watch": "jest --watch"
   },
-  "author": "Abraham Williams <hey@abrah.am>",
-  "license": "MIT",
+  "dependencies": {
+    "@types/jest": "26.0.15",
+    "@types/lodash": "4.14.165",
+    "jest": "26.6.3",
+    "lodash": "4.17.20",
+    "ts-jest": "26.4.3",
+    "ts-node": "9.0.0",
+    "typescript": "4.0.5"
+  },
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
@@ -23,14 +32,5 @@
       "json",
       "node"
     ]
-  },
-  "dependencies": {
-    "@types/jest": "26.0.15",
-    "@types/lodash": "4.14.165",
-    "jest": "26.6.3",
-    "lodash": "4.17.20",
-    "ts-jest": "26.4.3",
-    "ts-node": "9.0.0",
-    "typescript": "4.0.5"
   }
 }
