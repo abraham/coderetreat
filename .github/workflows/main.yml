@@ -1,0 +1,35 @@
+name: Test
+on: push
+jobs:
+  ruby:
+    name: Ruby ${{ matrix.ruby }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby: [2.5, 2.6, 2.7]
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - run: gem install bundler
+        working-directory: ruby
+      - run: bundle install
+        working-directory: ruby
+      - run: bundle exec rspec
+        working-directory: ruby
+  typescript:
+    name: TypeScript/Node ${{ matrix.node }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [10, 12, 14]
+      fail-fast: false
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm --prefix typescript install
+      - run: npm --prefix typescript test
