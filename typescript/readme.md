@@ -1,20 +1,16 @@
-Coderetreat TypeScript starter
-====
+# Coderetreat TypeScript starter
 
-Install
-----
+## Install
 
     $ git clone URL
     $ cd typescript
     $ npm install
 
-Usage
-----
+## Usage
 
     $ npm start
 
-Tests
-----
+## Tests
 
     $ npm test
 
@@ -22,7 +18,6 @@ Or
 
     $ npm run watch
 
-REPL
-----
+## REPL
 
     $ npx ts-node

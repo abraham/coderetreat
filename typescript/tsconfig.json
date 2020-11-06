@@ -7,8 +7,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "files": [
-    "main.ts",
-    "main.test.ts"
-  ]
+  "files": ["main.ts", "main.test.ts"]
 }

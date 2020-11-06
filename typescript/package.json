@@ -1,14 +1,14 @@
 {
   "name": "coderetreat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Coderetreat starter kit with TypeScript",
   "main": "main.js",
   "scripts": {
     "start": "ts-node ./main.ts",
     "test": "jest",
     "watch": "jest --watch"
   },
-  "author": "",
+  "author": "Abraham Williams <hey@abrah.am>",
   "license": "MIT",
   "jest": {
     "transform": {
