@@ -4,6 +4,7 @@
   "description": "Coderetreat starter kit with Ruby and TypeScript",
   "dependencies": {},
   "devDependencies": {
+    "@prettier/plugin-ruby": "0.20.1",
     "prettier": "^2.1.2"
   },
   "scripts": {
