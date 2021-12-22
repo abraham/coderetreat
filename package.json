@@ -14,7 +14,7 @@
   },
   "scripts": {
     "format": "prettier --write .",
-    "test": "prettier --check ."
+    "lint": "prettier --check ."
   },
   "dependencies": {},
   "devDependencies": {
