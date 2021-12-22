@@ -7,8 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - run: npm install
-      - run: npm test
+      - run: npm ci
+      - run: npm run lint
   ruby:
     name: Ruby ${{ matrix.ruby }}
     runs-on: ubuntu-latest
@@ -39,5 +39,5 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node }}
-      - run: npm --prefix typescript install
+      - run: npm --prefix typescript ci
       - run: npm --prefix typescript test
