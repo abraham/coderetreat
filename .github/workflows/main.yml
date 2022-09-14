@@ -4,6 +4,8 @@ jobs:
   lint:
     name: Lint
     runs-on: ubuntu-latest
+    env:
+      PRETTIER_RUBY_TIMEOUT_MS: 30000
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
