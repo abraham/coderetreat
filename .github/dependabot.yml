@@ -5,14 +5,18 @@ updates:
     schedule:
       interval: monthly
   - package-ecosystem: bundler
+    directory: '/'
+    schedule:
+      interval: monthly
+  - package-ecosystem: npm
+    directory: '/'
+    schedule:
+      interval: monthly
+  - package-ecosystem: bundler
     directory: '/ruby'
     schedule:
       interval: monthly
   - package-ecosystem: npm
     directory: '/typescript'
-    schedule:
-      interval: monthly
-  - package-ecosystem: npm
-    directory: '/'
     schedule:
       interval: monthly
