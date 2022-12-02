@@ -5,7 +5,7 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    prettier_print (1.0.2)
+    prettier_print (1.1.0)
     rbs (2.6.0)
     syntax_tree (4.3.0)
       prettier_print (>= 1.0.2)
