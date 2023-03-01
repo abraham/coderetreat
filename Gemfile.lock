@@ -7,7 +7,7 @@ GEM
       tilt
     prettier_print (1.2.0)
     rbs (2.6.0)
-    syntax_tree (5.3.0)
+    syntax_tree (6.0.1)
       prettier_print (>= 1.2.0)
     syntax_tree-haml (3.0.0)
       haml (>= 5.2, != 6.0.0)
